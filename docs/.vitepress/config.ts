@@ -49,45 +49,12 @@ export default defineConfig({
 
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2019-present xxx'
+      copyright: 'Copyright © 2019-present xxxx'
     },
 
-    nav: [
-      { text: 'Guide', link: '/guide/', activeMatch: '/guide/' },
-      { text: 'Config', link: '/config/', activeMatch: '/config/' },
-      { text: 'Plugins', link: '/plugins/', activeMatch: '/plugins/' },
-      {
-        text: 'Links',
-        items: [
-          {
-            text: 'Twitter',
-            link: 'https://twitter.com/vite_js'
-          }
-        ]
-      },
-      {
-        text: 'v3 (next)',
-        items: [
-          {
-            text: 'v2.x (stable)',
-            link: 'https://v2.vitejs.dev'
-          }
-        ]
-      }
-    ],
+    nav: [{ text: 'Config', link: '/config/', activeMatch: '/config/' }],
 
     sidebar: {
-      '/guide/': [
-        {
-          text: 'Guide',
-          items: [
-            {
-              text: 'Why Vite',
-              link: '/guide/why'
-            }
-          ]
-        }
-      ],
       '/config/': [
         {
           text: 'Config',

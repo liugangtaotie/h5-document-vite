@@ -6,21 +6,15 @@ titleTemplate: Next Generation Frontend Tooling
 
 hero:
   name: Vite
-  text: 一切事情，物来则应，过去不留
-  tagline: 如人饮水冷暖自知
+  text: Next Generation Frontend Tooling
+  tagline: Get ready for a development environment that can finally catch up with you.
   image:
     src: /logo-with-shadow.png
     alt: Vite
   actions:
     - theme: brand
       text: Get Started
-      link: /guide/
-    - theme: alt
-      text: Why Vite?
-      link: /guide/why
-    - theme: alt
-      text: View on GitHub
-      link: https://github.com/vitejs/vite
+      link: /config/
 
 features:
   - icon: 💡
