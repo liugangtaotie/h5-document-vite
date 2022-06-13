@@ -35,11 +35,6 @@ export default defineConfig({
       }
     },
 
-    carbonAds: {
-      code: 'CEBIEK3N',
-      placement: 'vitejsdev'
-    },
-
     localeLinks: {
       text: 'English',
       items: [
