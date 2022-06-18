@@ -1,5 +1,5 @@
 {
-  "name": "vite-monorepo",
+  "name": "h5-document-vite",
   "private": true,
   "engines": {
     "node": ">=14.6.0"
@@ -15,9 +15,7 @@
   "scripts": {
     "docs": "vitepress dev docs",
     "docs-build": "vitepress build docs",
-    "docs-serve": "vitepress serve docs",
-    "ci-publish": "esno scripts/publishCI.ts",
-    "ci-docs": "run-s build docs-build"
+    "docs-serve": "vitepress serve docs"
   },
   "devDependencies": {
     "@babel/types": "^7.18.4",
@@ -74,7 +72,7 @@
     "typescript": "^4.6.4",
     "unbuild": "^0.7.4",
     "vite": "^2.9.12",
-    "vitepress": "1.0.0-draft.8",
+    "vitepress": "1.0.0-alpha.2",
     "vitest": "^0.14.1",
     "vue": "^3.2.37"
   },

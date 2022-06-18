@@ -1,3 +1,10 @@
+/*
+ * @Descripttion:
+ * @Author: liugang
+ * @Date: 2022-06-12 22:32:22
+ * @LastEditors: liugang
+ * @LastEditTime: 2022-06-18 16:11:05
+ */
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
