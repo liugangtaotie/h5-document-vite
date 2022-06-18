@@ -14,7 +14,7 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /h5-document-vite-web/config/
+      link: /config/
 
 features:
   - icon: 💡
